@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    background-color: greenyellow;
+}
+
+.heading {
+    text-align: center;
+    margin: 0;
+}
+
+.playground-heading {
+    color:crimson;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 3rem;
+    margin: 0;
+}
+
+.imgandlink {
+    border: 1px solid blue;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;      
+}
+
+.linktorecipe {
+    width: 58%;
+    display: inline-block;
+    text-align: right; 
+}
+
+.linktorecipe a {
+    color: red;
+    font-family: 'Roboto', sans-serif;   
+    font-size: 2rem;      
+}
+
+.recipeimg {
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+
+#oatporridge {
+    width: 150px;
+    height: 150px;
+}
+
+.ingredients {
+    border: 1px solid blue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.ingredients-table {
+    border: 1px solid green;
+    margin: 0 auto;    
+    padding: 15px;
+    font-size: 1.5rem;
+    color: green;
+}
+
+.ingredients-table td {
+    border: 1px solid green;
+}
+
+.instructions {
+    border: 1px solid brown;
+    width: 90%;
+    margin: 0 auto; 
+    padding: 15px;   
+}
+
+.instructions ol {
+    border: 1px solid yellow;    
+    width: 75%;
+    margin: 0 auto;    
+    padding: 5px;
+    font-size: 1.5rem;
+    color: blueviolet
+}
+
+.footer {
+    color: darkred;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
